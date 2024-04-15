@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Initialize OpenAI client with your API key
-client = OpenAI(api_key='Your-Open-API-key')
+client = OpenAI(api_key='Your-Open-AI-Key')
 
 # Function to fetch average mortgage rates for each county in California from OpenAI
 def fetch_mortgage_rate(county):
